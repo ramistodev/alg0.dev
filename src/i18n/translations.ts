@@ -50,6 +50,16 @@ export interface Translations {
   resizeSidebar: string
   resizeCodePanel: string
 
+  // Mobile / aria labels
+  sidebarAriaLabel: string
+  codePanelAriaLabel: string
+  mobileMenuTitle: string
+  openMenu: string
+  closeMenu: string
+  closePanel: string
+  viewCode: string
+  languageLabel: string
+
   // 404
   notFoundTitle: string
   notFoundDescription: string
@@ -106,6 +116,15 @@ export const translations: Record<Locale, Translations> = {
 
     resizeSidebar: 'Resize sidebar',
     resizeCodePanel: 'Resize code panel',
+
+    sidebarAriaLabel: 'Algorithm categories',
+    codePanelAriaLabel: 'Code and details panel',
+    mobileMenuTitle: 'Algorithms',
+    openMenu: 'Open menu',
+    closeMenu: 'Close menu',
+    closePanel: 'Close panel',
+    viewCode: 'View code',
+    languageLabel: 'Language',
 
     notFoundTitle: '404 — Page not found',
     notFoundDescription: "The page you're looking for doesn't exist or has been moved.",
@@ -1042,6 +1061,15 @@ The puzzle was invented by mathematician Édouard Lucas in 1883. Legend says mon
 
     resizeSidebar: 'Redimensionar barra lateral',
     resizeCodePanel: 'Redimensionar panel de código',
+
+    sidebarAriaLabel: 'Categorías de algoritmos',
+    codePanelAriaLabel: 'Panel de código y detalles',
+    mobileMenuTitle: 'Algoritmos',
+    openMenu: 'Abrir menú',
+    closeMenu: 'Cerrar menú',
+    closePanel: 'Cerrar panel',
+    viewCode: 'Ver código',
+    languageLabel: 'Idioma',
 
     notFoundTitle: '404 — Página no encontrada',
     notFoundDescription: 'Lo sentimos, no pudimos encontrar la página que estás buscando.',
